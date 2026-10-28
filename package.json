@@ -1,0 +1,30 @@
+{
+  "name": "travel-tracker",
+  "version": "1.0.0",
+  "description": "An interactive 3D Globe Travel Tracker web application built with Node.js, Express, PostgreSQL, React, and Globe.gl.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "travel-tracker",
+    "threejs",
+    "globe-gl",
+    "express",
+    "postgresql",
+    "react"
+  ],
+  "author": "Yeshwant Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^17.4.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.19.0",
+    "pg": "^8.11.3"
+  }
+}
